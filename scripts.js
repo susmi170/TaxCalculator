@@ -7,9 +7,9 @@ $(document).ready(function(){
   var deductionsValue = document.getElementById("deductions").value;
   
   var isValid;
- isValid= handleInputNumberValidation(grossAnualIncomeValue,"id1",isValid);
- isValid=handleInputNumberValidation(extraIncomeValue,"id2",isValid);
-  isValid=handleInputNumberValidation(deductionsValue,"id3",isValid);
+ isValid= handleInputNumberValidation(grossAnualIncomeValue,"id1",isValid,"Gross anual income");
+ isValid=handleInputNumberValidation(extraIncomeValue,"id2",isValid,"Extra income");
+  isValid=handleInputNumberValidation(deductionsValue,"id3",isValid,"Total deduction");
 
 
  
@@ -42,14 +42,14 @@ $(document).ready(function(){
 	
   });
   //checks input number validations and sets the alert icon if invalid
-  function handleInputNumberValidation(inputNumber,id,isValid){
+  function handleInputNumberValidation(inputNumber,id,isValid,fieldName){
 	if(checkIfInputIsNumber(inputNumber)){
  
 		document.getElementById(id).style.visibility = "visible";
 		event.preventDefault();
 		isValid=false;
   }else  if(Math.sign(parseInt(inputNumber))<0){
-		alert("Extra income cannot be less that 0");
+		alert(fieldName+" cannot be less that 0");
 		event.preventDefault();
 		isValid=false;	
   }else{
