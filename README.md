@@ -20,23 +20,30 @@ Please enter numbers only for other input fields.
 2."Total deductions can not be more than total income" alert will be shown if both entered combine income is less than entered deduction .
 
 Screenshots:
-1.Initial page :
+
+
+1.**Initial page :**
+
 ![image](https://github.com/susmi170/TaxCalculator/assets/149704969/7fcdb608-162c-4551-9026-4d0d59ce3aaa)
 
 
 2.Keeping fields empty/or non number value for number fields and submit (Info icon came for all the fields)
+
 ![image](https://github.com/susmi170/TaxCalculator/assets/149704969/061c15a9-5841-44e2-839f-8f6df66c3194)
 
 
 3.negative input for numbers alert message .
+
 ![image](https://github.com/susmi170/TaxCalculator/assets/149704969/b5412c8a-5d46-4d78-9e4b-d719d4b75977)
 
 
 4."Total deductions can not be more than total income" alert will be shown if both entered combine income is less than entered deduction .
+
 ![image](https://github.com/susmi170/TaxCalculator/assets/149704969/bac749a8-d667-47af-b3e1-e95686c38d51)
 
 
 5.All valid input actual result
+
 ![image](https://github.com/susmi170/TaxCalculator/assets/149704969/28c6e997-3c50-4c34-b3f1-9face02e10a6)
 
 
