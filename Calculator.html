@@ -1,0 +1,88 @@
+<html>
+<head>
+ <link rel="stylesheet" href="style.css">
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+
+</head>
+<body>
+ 
+ 
+<div id="divId">
+
+<form>
+			
+<table class="center"  >
+<tr >
+<td class="td-id1">
+
+            <table>
+                <tr>
+                    <label>Enter gross anual income:
+					<i class="fa fa-question-circle" id="id5" aria-hidden="true"  title="Gross Anual income is your total salary before any deductions"></i>
+					</tr>
+                    <tr>
+					<td>
+					<div class ="input">
+					<input type="text" id="grossAnualIncome" name="grossAnualIncome" size="29">
+					 <i class="fa fa-info-circle test1" id="id1" aria-hidden="true"  title="Please enter numbers only"></i>
+					
+					</div>
+					
+					</tr>
+                
+                <tr>
+				<td>
+                    <label>Enter Extra income:
+					<i class="fa fa-question-circle" id="id6" aria-hidden="true"  title="Extra income is any income apart from your salary"></i>
+					</tr>
+                    <tr>
+					<td>
+					<div class ="input">
+					<input type="text" id="extraIncome" name="extraIncome" size="29">
+					 <i class="fa fa-info-circle test2" id="id2" aria-hidden="true"  title="Please enter numbers only"></i>
+					 </div>
+                </tr>
+                <tr>
+                   <td><label for="age">Enter age group:</label>
+				   <i class="fa fa-question-circle" id="id7" aria-hidden="true"  title="Select your age group"></i>
+				   </tr>
+					<tr>
+					<td><select name="age" id="age" style="width:240px;">
+					<option value=""></option>
+					<option value="<40"><40</option>
+					<option value=">=40 & <60">>=40 & <60 </option>
+					<option value=">=60">>=60</option>
+					
+					</select>
+					 <span><i class="fa fa-info-circle test4" id="id4" aria-hidden="true"  title="Age group selection is mandatory"></i><span>
+                </tr>
+				<tr>
+                    <td><label>Enter Total applicable deductions:
+					<i class="fa fa-question-circle" id="id7" aria-hidden="true"  title="Total deduction will be any investment done which belongs to tax saving category i.e PPF,LIC,NSC.."></i>
+					 </tr>
+					 <tr>
+                    <td>
+					<div class ="input">
+					<input type="text" id="deductions" name="deductions" size="29">
+					<i class="fa fa-info-circle test3" id="id3" aria-hidden="true"  title="Please enter numbers only"></i>
+					</div>
+                </tr>
+				<tr><td>
+				</tr>
+				<tr ><td class="td-id1">
+				  <input type="submit" value="submit" style=" width:250px;background-color:#429bf5">
+				</tr>
+
+            </table>
+</td>
+          
+          </tr>
+		  </table>
+        </form>
+    </div>
+</body>
+
+</html>
